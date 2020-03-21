@@ -17,7 +17,6 @@ public class Course implements Serializable{
 	
 	private String name_course;
 	private String code;
-	//private List<Student> stundents;
 	
 	
 	public String getCode() {

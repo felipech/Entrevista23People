@@ -9,7 +9,7 @@ import org.hibernate.annotations.Immutable;
 @Entity
 @Immutable
 @Table(name = "listcoursestudent")
-public class ListCourseStudent {
+public class ListCourseStudent {//this is a view created in the db
 	
 	@Id
 	private String name_course;

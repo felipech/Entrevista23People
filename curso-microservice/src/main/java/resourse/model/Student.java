@@ -16,15 +16,11 @@ public class Student implements Serializable{
 	@Id
 	@GeneratedValue
 	private Integer id;
-	//@Column(name = "rut")
 	private String rut;
-	//@Column(name = "name")
 	private String name;
 	@Column(name = "lastname")
 	private String lastname;
-	//@Column(name = "age")
 	private Integer age;
-	//private Course course;
 	
 	public Student() {
 		
